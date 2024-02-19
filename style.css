@@ -132,9 +132,10 @@
 .our-specialties{
     font-family:"DMSans";
     color: #4B4342;
-    font-size: 58px;
+    font-size: 42px;
     text-align: center;
     letter-spacing: 3px;
+    margin-bottom: 50px;
 
 }
 .cookies-pics{
@@ -236,11 +237,63 @@
 }
 
 .cake2-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 
 .cake2-section{
     padding: 69px 0px;
 }
+
+.cupcakes-pic-part1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.cupcake{
+    width: 19%;
+    height: 27vh;    
+}
+
+.cupcake > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cupcakes-pic{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Recipes-bg-img{
+    background-image: url(images/3bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.Recipes-bg-color{
+    background-color: #F3F2F3;
+    padding: 64px 0px 160px;
+}
+
+.ingredients-div{
+    font-family:"DMSans";
+    width: 70%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+    color: #4b4342;
+}
+
+.parent-ingredients-div{
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.eves{
+    font-weight: 700;
+}
+
